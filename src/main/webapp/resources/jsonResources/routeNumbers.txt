@@ -1,0 +1,119 @@
+N-01
+N-02
+N-03
+N-04
+N-05
+N-06
+N-07
+N-08
+N-09
+N-10
+N-11
+N-12
+N-13
+N-14
+N-15
+N-16
+N-17
+N-18
+N-19
+N-20
+N-21
+N-22
+R01
+R02
+R03
+R04
+R05
+R06
+R07
+R08
+R09
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+S01
+S02
+S03
+S04
+S05
+S06
+S07
+S08
+S09
+S10
+S11
+S12
+S13
+S14
+S15
+S16
+S17
+S18
+S19
+S20
+S21
+S22
+SS-01 Avadi HVF
+SS-03 Thiruvotriyur Bus Stand
+SS-04 East Tambaram - Mcc College
+SS-05 Anna Nagar West Depot
+SS-06 Kodambakkam - Sekar Emporium
+SS-07 Maharani Theatre
+SS-08 Porur Mtc Stop - Arcot Road
+SS-09 Pammal MTC Bus top
+SS-10 Nanganallur Bus Stop
+SS-11 Pallavaram - MTC Bus Stop
+SS-12 Triplicane Sangeetha Hotel
+SS-14 Kolathur - Rettaeri
+SS-15 Anna Nagar West Depot
+SS-16 Guduvancheri - Main Bus Stand
+SS-17 Avai Home
+SS-18 Chinmaya Nagar
+SS-19 Guindy Race Course
+SS-20 Guindy Race Course
+SS-21 Mudichur - Natesan Mtr. School
+SS-22 Gurunanak Collage
+SS-23 Kolathur - Rettaeri
+SS-24 Poonamallee Bus Stand
+SS-25 Kundrathur MTC Bus Stop
+SS-26 Meenakshi College
+SS-28 Tambaram - Sanatorium
+SS-30 Pazhavanthangal Railway Station
+SS-31 Chrompet - Non Stop
+SS-32 Nadhamuni
+SS-33 Indira Nagar
+SS-34 Madhavaram
+SS-35 Madhuravoyal
+SS-36 Pachiyappa's College
+SS-37 Thiruvanmiyur RTO NONSTOP
+SS-38 Anna Nagar West Depot
+SS-39 Perungalathur
+SS-42 Saidapet Bus Stand
+SS-43 Adambakkam NGO Colony
+SS-46 Hastinapuram
+SS-50 Aynavaram Railway Quaters
+SS-51 Avadi -Bus Terminus
+SS-52 Ambattur - Ot

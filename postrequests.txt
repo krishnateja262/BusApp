@@ -1,0 +1,88 @@
+1. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/login
+Method : POST
+Request : {
+  "username": "sandhya",
+  "password": "hrithik"
+}
+Response : {
+	"status": "INFO"
+	"userType": "PASSENGER"
+}
+
+2. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/routes
+Method : GET
+Response : Visit URL
+
+3. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/drivers/info
+Method : GET
+Response : Visit URL
+
+4. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/routes/{routeId}
+Method : GET
+Parameter : routeId => can be any bus number user wants to view
+Response : Visit URL
+
+5. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/drivers/info/{driverId}
+Method : GET
+Parameter : can be driver1, driver2, driver3, driver4, krishna
+Response : {"status":"INFO","driverInfoBean":{"routeNumber":"","gcmId":"","lat":null,"lon":null,"sendNotification":false},"passengerCount":0}
+
+6. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/drivers/info/{driverId}
+Method : POST
+Parameter : can be driver1, driver2, driver3, driver4, krishna
+Request : {
+  "routeNumber": "N-01",
+  "gcmId": "x000001",
+  "lat":"0.0",
+  "lon":"0.0",
+  "sendNotification":true
+}
+Response : {"status":"INFO","driverInfoBean":{"routeNumber":"N-01","gcmId":"x000001","lat":"0.0","lon":"0.0","sendNotification":true},"passengerCount":0}
+
+7. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/routes/{routeId}
+Method : POST
+Parameter : routeId => can be any bus number client wants to change
+Request : {
+  "lat":"30.0",
+  "lon":"20.0",
+  "sendNotification":true
+}
+Response : {"status":"INFO","driverPositionBean":{"lat":"30.0","lon":"20.0","sendNotification":true},"positionBeans":null}
+
+8. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/passengers
+Method : GET
+Response : Visit URL
+
+9. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/passengers/{passengerId}
+Method : GET
+Response : {"routeNumber":"R01","lon":"12.823397900000000000","timeInterval":2,"gcmId":"3cdf609e-22d2-11e4-93f8-10ddb1eabec7","lat":"80.221934599999940000"}
+
+10. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/passengers/busnumbers
+Method : POST
+Request : {
+  "startingPoint":"3cde5ff8-22d2-11e4-a2bb-10ddb1eabec7",
+  "endingPoint":"3cdf499c-22d2-11e4-8d26-10ddb1eabec7",
+  "session":"MORNING"
+}
+*******Note -> session can be either MORNING, EVENING all caps
+Response : {"SS-25":{"routeUrl":"/routes/SS-25","startingPointTime":"7.29AM","endingPointTime":"9.00AM"}}
+
+11. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/passengers/{passengerId}
+Method : POST
+Request : {
+  "routeNumber": "N-01",
+  "gcmId": "x000001",
+  "lat":"0.0",
+  "lon":"0.0",
+  "oldTimeInterval":2,
+  "newTimeInterval":3
+}
+Response : {"status":"INFO","url":"/routes/N-01"}
+
+12. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/timing/{minsNumber}
+Method : GET
+Response : {"sandhya":{"routeNumber":"R01","gcmId":"3cdf609e-22d2-11e4-93f8-10ddb1eabec7"}}
+
+13. http://dev.truzign.com/BusApp-1.0-SNAPSHOT/notifiers/{busNumber}
+Method : GET
+Response : {"status":"ERROR"} or {"status":"INFO"} INFO for notification activated by driver else not
